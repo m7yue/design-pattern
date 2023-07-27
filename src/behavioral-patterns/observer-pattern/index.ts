@@ -111,7 +111,7 @@ observer1.subscribe(subject1, (subject) => {
   console.log(`observer1 recive from ${subject.name}: ${JSON.stringify(subject.state)}`)
 })
 
-observer1.subscribe(subject2, (subject) => {
+ observer1.subscribe(subject2, (subject) => {
   console.log(`observer1 recive from ${subject.name}: ${JSON.stringify(subject.state)}`)
 })
 
